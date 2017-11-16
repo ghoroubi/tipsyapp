@@ -1,0 +1,27 @@
+public:
+  upload: ./resources/config/upload/
+  logs: "./resources/config/logs/"
+  html_files: "./resources/static/"
+  mode: "release" #development or release
+  fb_app_id: 236512393544984
+
+db:
+  host: localhost
+  port: 5432
+  name: tipsy
+  user: postgres
+  password: 123456
+  engine: postgres
+app:
+  bind-address: "0.0.0.0:9191"
+agents:
+  secret: "tipsy_project_by_nima_ghoroubi"
+  xmlPath: "./AccountEndpoints.xml"
+email_provider:
+  sender_email: "info-noreply@candoapp.net"
+  sender_password: "pouya_mahsa"
+  host: "smtp.gmail.com"
+  port: "587"
+admin:
+  email:  "support@candoapp.net"
+  password: "pouyamahsa"

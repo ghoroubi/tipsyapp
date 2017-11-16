@@ -1,0 +1,33 @@
+
+<Endpoints>
+    <Endpoint key="createAccountHolder" value="https://cal-test.adyen.com/cal/services/Account/v3/createAccountHolder"/>
+    <Endpoint key="updateAccountHolder" value="https://cal-test.adyen.com/cal/services/Account/v3/updateAccountHolder"/>
+    <Endpoint key="createAccount" value="https://cal-test.adyen.com/cal/services/Account/v3/createAccount"/>
+    <Endpoint key="uploadDocument" value="https://cal-test.adyen.com/cal/services/Account/v3/uploadDocument"/>
+    <Endpoint key="getUploadedDocuments" value="https://cal-test.adyen.com/cal/services/Account/v3/getUploadedDocuments"/>
+    <Endpoint key="getAccountHolder" value="https://cal-test.adyen.com/cal/services/Account/v3/getAccountHolder"/>
+    <Endpoint key="updateAccountHolderState" value= "https://cal-test.adyen.com/cal/services/Account/v3/updateAccountHolderState"/>
+    <Endpoint key="deleteBankAccounts" value="https://cal-test.adyen.com/cal/services/Account/v3/deleteBankAccounts"/>
+    <Endpoint key="deleteShareholders" value="https://cal-test.adyen.com/cal/services/Account/v3/deleteShareholders"/>
+    <Endpoint key="closeAccount" value="https://cal-test.adyen.com/cal/services/Account/v3/closeAccount"/>
+    <Endpoint key="closeAccountHolder" value="https://cal-test.adyen.com/cal/services/Account/v3/closeAccountHolder"/>
+    <Endpoint key="getTierConfiguration" value="https://cal-test.adyen.com/cal/services/Account/v3/getTierConfiguration"/>
+    <Endpoint key="suspendAccountHolder" value="https://cal-test.adyen.com/cal/services/Account/v3/suspendAccountHolder"/>
+    <Endpoint key="unSuspendAccountHolder" value="https://cal-test.adyen.com/cal/services/Account/v3/unSuspendAccountHolder"/>
+</Endpoints>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

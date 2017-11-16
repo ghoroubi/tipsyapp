@@ -1,0 +1,50 @@
+public:
+  upload: "./resources/config/upload/"
+  logs: "./resources/config/logs/"
+  html_files: "./resources/static/"
+  mode: "release" #development or release
+  language: "FA" #EN , FA
+  sms_kave: "62656F78336F756451562F714F6C59445233654637773D3D"
+  path_es_err_cache: "/home/nima/workspace/src/tipsy/es_err_cache/"
+  payment_redirect_url: "http://apipars.candoapp.net/v2/cando/paymentDone"
+  fb_app_id: 236512393544984
+db:
+  host: localhost
+  port: 5432
+  name: tipsy
+  user: postgres
+  password: 123456
+  engine: postgres
+cassandra:
+  key_space: "tipsy"
+  cluster: "127.0.0.1"
+  user_name: "cassandra"
+  password: "cassandra"
+app:
+  bind-address: "0.0.0.0:9191"
+agents:
+  secret: "tipsy_project_by_nima_ghoroubi"
+email_provider:
+  sender_email: "info-noreply@candoapp.net"
+  sender_password: "pouya_mahsa"
+  host: "smtp.gmail.com"
+  port: "587"
+cache:
+  use_cache: true
+  engine: "freecache"
+  free_cache:
+    size: 1024
+  redis:
+    addr: "tamandar.com:6379"
+    passwd: ""
+search:
+  engine: "sql"  #sql or elastic
+  elastic:
+    addr: "http://127.0.0.1:9200"
+    index: "tipsy"
+admin:
+  email:  "support@candoapp.net"
+  password: "pouyamahsa"
+settings:
+  sku: ""
+  version: "1.0.0"
